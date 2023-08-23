@@ -1,7 +1,7 @@
 function div() {
     const number1 = document.getElementById("number1");
     const number2 = document.getElementById("number2");
-    if(parseInt(number2) == 0){
+    if(parseInt(number2.value) == 0){
         alert("Bir sayı 0'a bölünemez !");
         return;
     }
